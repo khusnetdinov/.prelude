@@ -6,7 +6,7 @@
 ;;; Frame
 (global-set-key [(control ?v)]
                 (lambda () (interactive (next-line (/ (window-height (selected-window)) 4)))))
-
+;; TODO: switch off wrap of words lobal
 (setq scroll-margin 5)
 (menu-bar-mode -1)
 
@@ -107,3 +107,6 @@
 
 ;; selecting
 ;; word / line / block / function
+
+;; transpose
+;; TODO chars / words / blocks / lines
