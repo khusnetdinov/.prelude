@@ -10,6 +10,10 @@
 (setq scroll-margin 5)
 (menu-bar-mode -1)
 
+;; Tabs
+;; tab-width 2
+;; indent-tabs-mode nil
+
 ;;; Cursor
 ;; (blink-cursor-mode 0)
 ;; (blink-cursor-blinks 0)
