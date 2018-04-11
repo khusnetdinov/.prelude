@@ -106,7 +106,10 @@
 ;; TODO: word / ireplace / regexp
 
 ;; selecting
-;; word / line / block / function
+;; TODO: word / line / block / function
 
 ;; transpose
-;; TODO chars / words / blocks / lines
+;; TODO: chars / words / blocks / lines
+
+;; check spelling
+;; TODO: check and correction
