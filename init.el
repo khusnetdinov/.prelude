@@ -113,3 +113,6 @@
 
 ;; check spelling
 ;; TODO: check and correction
+
+;; rectangles
+;; TODO: bindings need?
