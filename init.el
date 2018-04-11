@@ -116,3 +116,6 @@
 
 ;; rectangles
 ;; TODO: bindings need?
+
+;; multiple-cursors.el
+;; TODO: require and bindings
