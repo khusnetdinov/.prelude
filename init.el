@@ -119,3 +119,6 @@
 
 ;; multiple-cursors.el
 ;; TODO: require and bindings
+
+;; expand-regions.el
+;; TODO: require and bindings
