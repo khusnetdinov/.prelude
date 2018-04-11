@@ -125,3 +125,7 @@
 
 ;; jump around
 ;; TODO: https://gist.github.com/magnars/2350388 and bindings
+
+
+;; resilent
+;; TODO: https://github.com/magnars/.emacs.d/
