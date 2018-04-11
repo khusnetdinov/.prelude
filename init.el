@@ -122,3 +122,6 @@
 
 ;; expand-regions.el
 ;; TODO: require and bindings
+
+;; jump around
+;; TODO: https://gist.github.com/magnars/2350388 and bindings
