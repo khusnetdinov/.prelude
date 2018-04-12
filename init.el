@@ -132,3 +132,6 @@
 
 ;; resilent
 ;; TODO: https://github.com/magnars/.emacs.d/
+
+;; parentheses
+;; TODO: forward / back / kill / transpose / mark
