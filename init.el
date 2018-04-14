@@ -23,19 +23,7 @@
 (global-linum-mode 1)
 (setq linum-format "%4d \u2502 ")
 
-;;; Dired
-(defun sof/dired-sort ()
-  "Dired sort hook to list directories first."
-  (save-excursion
-    (let (buffer-read-only)
-      (forward-line 2)
-      (sort-regexp-fields t "^.*$" "[ ]*." (point) (point-max))))
-  (and (featurep 'xemacs)
-       (fboundp 'dired-insert-set-properties)
-       (dired-insert-set-properties (point-min) (point-max)))
-  (set-buffer-modified-p nil))
 
-(add-hook 'dired-after-readin-hook 'sof/dired-sort)
 
 ;;; Keys
 ;; unbindings
@@ -145,5 +133,20 @@
 ;; debuggers
 ;; TODO: debugger, GUD, breakpoints, Multithreaded Debugging
 
-;; CVS
+;; cvs
 ;; TODO: git, magit
+
+;; dired
+;; TODO: key bindings
+(defun sof/dired-sort ()
+  "Dired sort hook to list directories first."
+  (save-excursion
+    (let (buffer-read-only)
+      (forward-line 2)
+      (sort-regexp-fields t "^.*$" "[ ]*." (point) (point-max))))
+  (and (featurep 'xemacs)
+       (fboundp 'dired-insert-set-properties)
+       (dired-insert-set-properties (point-min) (point-max)))
+  (set-buffer-modified-p nil))
+
+(add-hook 'dired-after-readin-hook 'sof/dired-sort)
