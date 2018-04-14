@@ -135,3 +135,12 @@
 
 ;; parentheses
 ;; TODO: forward / back / kill / transpose / mark
+
+;; comments
+;; TODO: dwin, line, kill, set-column
+
+;; compilation
+;; TODO: error, files, messages
+
+;; debuggers
+;; TODO: debugger, GUD, breakpoints, Multithreaded Debugging
