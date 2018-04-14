@@ -144,3 +144,6 @@
 
 ;; debuggers
 ;; TODO: debugger, GUD, breakpoints, Multithreaded Debugging
+
+;; CVS
+;; TODO: git, magit
